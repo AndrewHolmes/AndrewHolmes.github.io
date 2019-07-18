@@ -2577,8 +2577,14 @@ input, select, textarea {
 			display: block;
 		}
 
+		@media screen and (min-width: 736px) {
+			.image.left, .image.right {
+				width: 40%;
+			}
+		}
+
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
