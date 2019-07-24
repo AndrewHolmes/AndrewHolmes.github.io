@@ -150,7 +150,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: 1.15rem;
 		line-height: 2.375;
 	}
 
@@ -208,7 +208,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.25rem;
+		font-size: 1.35rem;
 		margin: 0 0 1.5rem 0;
 	}
 
@@ -2577,14 +2577,14 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image.left, .image.right {
+			max-width: 100%;
+		}
+
 		@media screen and (min-width: 736px) {
 			.image.left, .image.right {
 				width: 40%;
 			}
-		}
-
-		.image.left, .image.right {
-			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
